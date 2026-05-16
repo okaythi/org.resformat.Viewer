@@ -1,0 +1,8 @@
+[package]
+name = "res_core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bytemuck = { version = "1.14", features = ["derive"] }
+flate2 = "1.0"

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=RES Viewer
+Exec=res_viewer %U
+Icon=org.resformat.Viewer
+Type=Application
+Terminal=false
+Categories=Graphics;2DGraphics;Viewer;
+MimeType=image/x-res;

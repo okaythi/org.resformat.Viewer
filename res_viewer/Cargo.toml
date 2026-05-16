@@ -1,0 +1,9 @@
+[package]
+name = "res_viewer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+res_core = { path = "../res_core" }
+gtk4 = { version = "0.7", features = ["v4_14"] }
+anyhow = "1.0"
