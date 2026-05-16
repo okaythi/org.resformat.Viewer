@@ -25,10 +25,14 @@
                 "install -Dm644 res_viewer/data/org.resformat.Viewer.desktop /app/share/applications/org.resformat.Viewer.desktop",
                 "install -Dm644 res_viewer/data/org.resformat.Viewer.xml /app/share/mime/packages/org.resformat.Viewer.xml"
             ],
-            "sources": [
-                { "type": "dir", "path": "." },
-                "cargo-sources.json"
-            ]
+"sources": [
+    {
+        "type": "git",
+        "url": "https://github.com/okaythi/org.resformat.Viewer.git",
+        "branch": "main"
+    },
+    "cargo-sources.json"
+]
         }
     ]
 }
