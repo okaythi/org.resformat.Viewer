@@ -1,0 +1,18 @@
+[package]
+name = "res_winui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+res_core = { path = "../res_core" }
+
+[dependencies.windows]
+version = "0.52.0"
+features = [
+    "Win32_Foundation",
+    "Win32_Graphics_Gdi",
+    "Win32_System_LibraryLoader",
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_UI_Controls_Dialogs",
+    "Win32_UI_Controls",
+]
